@@ -27,7 +27,7 @@ class UsersController extends Controller
 		$user = User::create([
 			'name' => $request->name,
 			'email' => $request->email,
-			'password' => bcrypt($request->password),bootstrap/helpers.php
+			'password' => bcrypt($request->password),
 		]);
 		if($request->name == 'warning')
 		{
