@@ -4,7 +4,6 @@ $db_config = get_db_config();
 return [
 
 	'default' => $db_config['connection'],
-
 	'connections' => [
 
 		'sqlite' => [

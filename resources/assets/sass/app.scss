@@ -67,6 +67,12 @@ p {
     color: #fff;
   }
 }
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
 
 /* footer */
 
@@ -126,7 +132,6 @@ aside {
     }
   }
 }
-
 section.user_info {
   padding-bottom: 10px;
   margin-top: 20px;
